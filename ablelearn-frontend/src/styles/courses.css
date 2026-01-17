@@ -1,0 +1,104 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0b1020, #020617);
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  padding: 24px;
+  background: #0b1020;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.logo {
+  color: #7c7cff;
+  margin-bottom: 20px;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar button:hover,
+.sidebar button.active {
+  background: #6366f1;
+}
+
+/* MAIN CONTENT */
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.course-card {
+  margin-top: 24px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  max-width: 420px;
+}
+
+.course-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.course-icon {
+  font-size: 32px;
+}
+
+.course-info h3 {
+  margin: 0;
+}
+
+.course-info p {
+  margin: 4px 0 0;
+  opacity: 0.8;
+}
+
+.course-arrow {
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.cognitive-indicator {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #f59e0b;
+  color: black;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.6);
+}
+
+.completion-message {
+  margin-top: 20px;
+  background: rgba(34, 197, 94, 0.15);
+  border-left: 6px solid #22c55e;
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.debug {
+  margin-top: 10px;
+  opacity: 0.4;
+  font-size: 12px;
+}

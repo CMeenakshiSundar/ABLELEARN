@@ -1,0 +1,28 @@
+.login-container {
+  max-width: 420px;
+  margin: 100px auto;
+  background: var(--bg-secondary);
+  padding: 32px;
+  border-radius: 14px;
+}
+
+.login-container h1 {
+  margin-bottom: 8px;
+}
+
+.login-container input,
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: white;
+  border-radius: 8px;
+}
+
+.login-container button {
+  background: var(--accent);
+  border: none;
+  cursor: pointer;
+}
